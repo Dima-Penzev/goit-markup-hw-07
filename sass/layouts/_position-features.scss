@@ -2,7 +2,7 @@
     display: none;
 }
 
-.feartures-group {
+.features {
     @extend %list;
     padding: 94px 0 94px 0;
     display: flex;
@@ -18,28 +18,13 @@
         border-radius: 4px;
     }
     
-    .title {
+    &-title {
         margin: 0;
         margin-bottom: 10px;
-    
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    
-        color: $title-text-color;
     }
     
-    .text {
+    &-text {
         margin: 0;
         width: 270px;
-    
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-    
-        color: $primary-text-color;
     }
 }

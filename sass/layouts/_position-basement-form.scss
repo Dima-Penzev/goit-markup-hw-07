@@ -1,0 +1,28 @@
+.form-wraper {
+    margin-left: auto;
+}
+
+.form-title {
+    display: block;
+    padding-top: 72px;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+}
+
+.form-input {
+    display: block;
+    padding-left: 16px;
+}
+
+.btn-submit {
+    @include centeringFlex(inline-flex);
+    margin-left: 12px;
+
+    .icon-plane {
+        margin-left: 10px;
+    }
+}
