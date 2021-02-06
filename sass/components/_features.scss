@@ -1,0 +1,46 @@
+.invisible {
+    display: none;
+}
+
+.feartures-group {
+    @extend %list;
+    padding: 94px 0 94px 0;
+    display: flex;
+    justify-content: space-between;
+    
+    .box {
+        @include centeringFlex();
+        width: 270px;
+        height: 120px;
+        margin-bottom: 30px;
+    
+        background: $team-background-color;
+        border-radius: 4px;
+    }
+    
+    .title {
+        margin: 0;
+        margin-bottom: 10px;
+    
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: $title-text-color;
+    }
+    
+    .text {
+        margin: 0;
+        width: 270px;
+    
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    
+        color: $primary-text-color;
+    }
+}
+

@@ -1,0 +1,30 @@
+.social-link {
+    @include centeringFlex();
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    color: $color-social-icons;
+
+    transition: color $duration-and-timing-function, background-color $duration-and-timing-function;
+
+    &:hover,
+    &:focus {
+        color: $main-title-color;
+        background-color: $accent-color;
+    }
+}
+
+.basement-link {
+    background-color: $color-basement-icons;
+    color: $main-title-color;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.social-icon {
+    height: 20px;
+}

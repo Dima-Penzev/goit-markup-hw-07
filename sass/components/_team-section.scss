@@ -1,0 +1,27 @@
+.team-section {
+    background-color: $team-background-color;
+
+    .container {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
+.team-group {
+    @extend %list;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-title {
+    margin: 0;
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $title-text-color;
+}

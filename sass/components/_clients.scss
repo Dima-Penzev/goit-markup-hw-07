@@ -1,0 +1,38 @@
+.clients-title {
+    padding: 0;
+    margin: 0;
+    padding-top: 94px;
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.clients-box {
+    @extend %list;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;
+}
+
+.clients-link {
+    @include centeringFlex();
+
+    width: 170px;
+    height: 90px;
+
+    border: 1px solid $color-social-icons;
+    border-radius: 4px;
+    color: $color-social-icons;
+
+    transition: color $duration-and-timing-function, border-color $duration-and-timing-function;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+        border-color: $accent-color;
+    }
+}
