@@ -1,0 +1,19 @@
+.invisible {
+    display: none;
+}
+
+.buttons-list {
+    @extend %list;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-top: 94px;
+
+    .item:not(:last-child) {
+        margin-right: 8px;
+    }
+}
+
+.portfolio-filter {
+    padding: 6px 22px;
+}

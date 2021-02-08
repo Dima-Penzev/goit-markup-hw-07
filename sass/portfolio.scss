@@ -4,14 +4,25 @@
 
 @import './base/common';
 
-@import './components/header';
 @import './components/logo';
-@import './components/header-nav';
+@import './components/nav-link';
 @import './components/header-contacts';
-@import './components/portfolio-radio-buttons';
-@import './components/portfolio-works';
-@import './components/basement-container';
-@import './components/address-group';
-@import './components/basement-social';
+@import './components/portfolio-filter';
+@import './components/portfolio-overlay';
+@import './components/portfolio-unit';
+@import './components/discription-title';
+@import './components/discription-text';
+@import './components/contact';
+@import './components/low-title';
 @import './components/social-link';
-@import './components/basement-form';
+@import './components/form-input';
+@import './components/button-for-anything';
+@import './components/paper-plane';
+
+@import './layouts/position-header';
+@import './layouts/position-radio-buttons';
+@import './layouts/position-portfolio-works';
+@import './layouts/position-basement-container';
+@import './layouts/position-address-group';
+@import './layouts/position-basement-social';
+@import './layouts/position-basement-form';

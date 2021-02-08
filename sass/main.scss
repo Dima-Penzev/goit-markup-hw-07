@@ -4,31 +4,25 @@
 
 @import './base/common';
 
-@import './components/header';
 @import './components/logo';
-@import './components/header-nav';
+@import './components/nav-link';
 @import './components/header-contacts';
 @import './components/hero-title';
-@import './components/hero-link';
-@import './components/features-title';
-@import './components/features-text';
-@import './components/actions-title';
-@import './components/actions-label';
-@import './components/team-title';
+@import './components/button-for-anything';
+@import './components/section-title';
 @import './components/member-name';
-@import './components/skills';
+@import './components/discription-text';
 @import './components/social-link';
-@import './components/client-title';
 @import './components/client-link';
-@import './components/address';
 @import './components/contact';
-@import './components/invocation';
-@import './components/form-title';
+@import './components/low-title';
 @import './components/form-input';
-@import './components/subscribe-button';
-@import './components/paper-plane';
-@import './components/modal-window';
+@import './components/modal-close';
+@import './components/modal-label';
+@import './components/modal-input';
+@import './components/check-mark';
 
+@import './layouts/position-header';
 @import './layouts/position-hero';
 @import './layouts/position-actions';
 @import './layouts/position-features';
@@ -39,3 +33,4 @@
 @import './layouts/position-address-group';
 @import './layouts/position-basement-social';
 @import './layouts/position-basement-form';
+@import './layouts/position-modal-window';

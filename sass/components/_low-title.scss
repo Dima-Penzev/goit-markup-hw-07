@@ -1,14 +1,24 @@
-.actions-label {
-    width: 100%;
-    height: 70px;
-
+.low-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
     color: $main-title-color;
+}
+
+.actions-label {
+    width: 100%;
+    height: 70px;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
     background-color: $actions-background-color;
+}
+
+.features-title {
+    color: $title-text-color;
 }

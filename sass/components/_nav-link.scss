@@ -1,20 +1,7 @@
-.header-nav {
-    @extend %list;
-    margin-left: 93px;
-    display: flex;
-    align-items: center;
-
-    .item:not(:last-child) {
-        margin-right: 50px;
-    }
-}
-
 .nav-link {
+    display: block;
     position: relative;
     text-decoration: none;
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
     font-weight: 500;
     font-size: 14px;
