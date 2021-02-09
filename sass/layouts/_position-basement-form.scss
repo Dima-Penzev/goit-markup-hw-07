@@ -1,21 +1,21 @@
-.form-wraper {
-    margin-left: auto;
-}
-
-.form-title {
-    display: block;
-    padding-top: 72px;
-    margin-bottom: 20px;
-}
-
-.form-field {
-    display: flex;
-    align-items: center;
-}
-
-.form-input {
+.form {
     display: block;
     padding-left: 16px;
+
+    &-wraper {
+        margin-left: auto;
+    }
+    
+    &-title {
+        display: block;
+        padding-top: 72px;
+        margin-bottom: 20px;
+    }
+    
+    &-field {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .submit {

@@ -6,7 +6,6 @@
 }
 
 .clients-box {
-    @extend %list;
     display: flex;
     justify-content: space-between;
     margin-bottom: 94px;

@@ -1,5 +1,3 @@
-
-
 .contact {
     display: flex;
     list-style: none;
@@ -18,14 +16,16 @@
     &:focus {
         color: $accent-color;
     }
+
+    .mail {
+        width: 16px;
+        height: 12px;
+    }
+    
+    .phone {
+        width: 10px;
+        height: 16px;
+    }
 }
 
-.mail {
-    width: 16px;
-    height: 12px;
-}
 
-.phone {
-    width: 10px;
-    height: 16px;
-}

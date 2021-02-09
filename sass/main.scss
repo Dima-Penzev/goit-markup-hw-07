@@ -1,5 +1,4 @@
 @import './utils/variables';
-@import './utils/placeholder';
 @import './utils/mixins';
 
 @import './base/common';
@@ -8,18 +7,17 @@
 @import './components/nav-link';
 @import './components/header-contacts';
 @import './components/hero-title';
-@import './components/button-for-anything';
-@import './components/section-title';
-@import './components/member-name';
-@import './components/discription-text';
+@import './components/button';
+@import './components/common-title';
+@import './components/description';
+@import './components/actions-label';
+@import './components/portfolio-filter';
+@import './components/portfolio-overlay';
+@import './components/portfolio-unit';
 @import './components/social-link';
 @import './components/client-link';
-@import './components/contact';
-@import './components/low-title';
-@import './components/form-input';
-@import './components/modal-close';
-@import './components/modal-label';
-@import './components/modal-input';
+@import './components/input';
+@import './components/close';
 @import './components/check-mark';
 
 @import './layouts/position-header';
@@ -29,6 +27,8 @@
 @import './layouts/position-team-section';
 @import './layouts/position-team-card';
 @import './layouts/position-clients';
+@import './layouts/position-radio-buttons';
+@import './layouts/position-portfolio-works';
 @import './layouts/position-basement-container';
 @import './layouts/position-address-group';
 @import './layouts/position-basement-social';

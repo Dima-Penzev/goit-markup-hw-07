@@ -14,12 +14,12 @@
     opacity: 0;
     pointer-events: none;
 
-    .modal {
+    .modal-box {
         transform: translate(-50%, -50%) scale(0.9);
     }
 }
 
-.modal {
+.modal-box {
     position: absolute;
     width: 528px;
     min-height: 581px;
@@ -34,61 +34,69 @@
     background-color: $main-title-color;
     box-shadow: $modal-window-shadow;
     border-radius: 4px;
+
+    .close {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+    }
+
+    .modal-title {
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    .modal-label {
+        position: relative;
+        display: block;
+    }
+    
+    .modal-input {
+        display: block;
+        margin-top: 4px;
+        margin-bottom: 10px;
+        padding-left: 42px;
+    }
+
+    .modal-icon {
+        position: absolute;
+        bottom: 11px;
+        left: 12px;
+    }
+    
+    .coment {
+        display: block;
+        margin-top: 4px;
+        margin-bottom: 20px;
+        padding: 12px 16px;    
+    }
+    
+    .agreement-label {
+        @include centeringFlex();
+        margin-bottom: 30px;
+    }
+    
+    .conditions {
+        color: $accent-color;
+        margin-left: 5px;
+    }
+    
+    .checkbox-icon {
+        display: inline-block;
+        margin-right: 7px;
+    }
+    
+    .modal-btn {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
-.modal-close {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-}
 
-.modal-title {
-    margin: 0;
-    margin-bottom: 12px;
-}
 
-.modal-label {
-    position: relative;
-    display: block;
-}
 
-.modal-input {
-    display: block;
-    margin-top: 4px;
-    margin-bottom: 10px;
-    padding-left: 42px;
-}
 
-.modal-icon {
-    position: absolute;
-    bottom: 11px;
-    left: 12px;
-}
 
-.coment {
-    display: block;
-    margin-top: 4px;
-    margin-bottom: 20px;
-    padding: 12px 16px;    
-}
 
-.agreement-label {
-    @include centeringFlex();
-    margin-bottom: 30px;
-}
 
-.conditions {
-    color: $accent-color;
-    margin-left: 5px;
-}
-
-.checkbox-icon {
-    display: inline-block;
-    margin-right: 7px;
-}
-
-.modal-btn {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
