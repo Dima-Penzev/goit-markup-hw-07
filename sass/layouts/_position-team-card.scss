@@ -1,0 +1,24 @@
+.team-item {
+    border-radius: 0 0 4px 4px;
+
+    background-color: $main-title-color;
+    box-shadow: $team-item-shadow;
+}
+
+.name {
+    margin: 0;
+    padding: 30px 0 10px;
+}
+
+.skill {
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0 30px 32px;
+}

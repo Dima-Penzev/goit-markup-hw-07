@@ -1,0 +1,18 @@
+.invocation-box {
+    padding-top: 72px;
+    margin-left: 70px;
+}
+
+.invocation {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.social-box {
+    display: flex;
+
+    .basement-link:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+

@@ -1,0 +1,18 @@
+.team-section {
+    background-color: $team-background-color;
+
+    .container {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
+.team-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-title {
+    margin: 0;
+    margin-bottom: 50px;
+}

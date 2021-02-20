@@ -1,0 +1,29 @@
+.invisible {
+    display: none;
+}
+
+.features {
+    padding: 94px 0 94px 0;
+    display: flex;
+    justify-content: space-between;
+    
+    .box {
+        @include centeringFlex();
+        width: 270px;
+        height: 120px;
+        margin-bottom: 30px;
+    
+        background: $team-background-color;
+        border-radius: 4px;
+    }
+    
+    &-title {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    &-text {
+        margin: 0;
+        width: 270px;
+    }
+}
